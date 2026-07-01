@@ -27,7 +27,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v7
-      - uses: nttld/setup-ndk@v1
+      - uses: nttld/setup-ndk@v1.6.0
         id: setup-ndk
         with:
           ndk-version: r27d
